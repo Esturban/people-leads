@@ -1,0 +1,11 @@
+{
+	"title" : "Connect with the people you need",
+	"description" : "People Leads uses artificial intelligence to match your company with the right talent needs",
+	"illustration" : "freelancing.svg",
+	"alt_text" : "Or see why we worth it",
+	"alt_href" : "#features",
+	"button" : {
+		"text" : "Pre-Order",
+		"href" : "#contact"
+	}
+}

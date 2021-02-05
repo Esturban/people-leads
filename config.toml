@@ -1,0 +1,25 @@
+baseURL = ""
+languageCode = "en-us"
+title = "PeopleLeads.ai"
+theme = "hugo-lime"
+license = "MIT"
+licenselink = "https://github.com/uicardiodev/hugo-lime/blob/master/LICENSE.md"
+description = ""
+homepage = "http://uicard.io/products/green-paper"
+tags = ["minimal","blog","services","responsive","bootstrap","uicardio","illustrations"]
+features = ["cover","pricing","faq","parteners","blog","work","portfolio","contact","illustrations"]
+min_version = "0.47.1"
+
+[author]
+  name = "UICardio"
+  homepage = "https://uicard.io/products/sodium-hugo-theme"
+
+[developer]
+	name = "PeopleLeads"
+	homepage = "https://peopleleads.ai"
+
+# If porting an existing theme
+[original]
+  name = ""
+  homepage = ""
+  repo = ""
