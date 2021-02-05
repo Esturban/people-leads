@@ -5,13 +5,14 @@
     {
       "title" : "Seeker (People)",
       "price" : "$29",
+      "subprice":"per Month",
       "features" : [
         "Daily job board",
         "Weekly openings suggestions",
         "Notify employers you are open to work",
         "Resume resources",
         "Advance skills courses"
-      ],      "button" : {
+        ],      "button" : {
         "text" : "Pre-Order",
         "href" : "/#contact"
       }
@@ -19,23 +20,28 @@
     {
       "title" : "Starter (Leads)",
       "price" : "$99",
+      "subprice":"per Month",
       "features" : [
         "Monthly recommendations",
         "AI engine ranking candidates",
-        "" ],
+        "Candidate analysis",
+        "Premium access trend reports",
+        "E-mail support" ],
       "button" : {
         "text" : "Pre-Order",
         "href" : "/#contact"
       }
     },
     {
-      "title" : "Advance",
-      "price" : "$90",
+      "title" : "Premier (Leads)",
+      "price" : "$299",
+      "subprice":"per Month",
       "features" : [
         "All features of Starter Pack",
-        "Feature number 2",
-        "Feature 3",
-        "feature 4"
+        "In-platform certification creation",
+        "Early access to competitive candidates",
+        "Candidate pool analysis",
+        ""
       ],
       "button" : {
         "text" : "Pre-Order",
