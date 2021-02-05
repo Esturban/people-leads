@@ -26,9 +26,14 @@
     <!-- including bootstrap -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <!-- <link rel="stylesheet" type="text/css" href="{{.Site.BaseURL}}css/compiled.css"> -->
+  {{ "<!-- plugins -->" | safeHTML }}
+  {{ range .Site.Params.plugins.css }}
+  <!--<link rel="stylesheet"  href="{{ .URL | absURL }}">-->
+  <link rel="stylesheet" media="print" onload="this.onload=null;this.removeAttribute('media');"  href="{{ .URL | absURL }}">
+  {{ end }}
 
 
-    {{ $sass := resources.Get "/scss/bootstrap.scss" }}
+  {{ $sass := resources.Get "/scss/bootstrap.scss" }}
     {{ $style := $sass | resources.ToCSS | resources.Minify}} 
     <link rel="stylesheet" href="{{ $style.RelPermalink }}"> 
   </head>
