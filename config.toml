@@ -23,3 +23,6 @@ min_version = "0.47.1"
   name = ""
   homepage = ""
   repo = ""
+  
+[[params.plugins.css]]
+URL = "css/additional.css"
