@@ -1,15 +1,28 @@
 {
-  "title" : "Pricing",
-  "description" : "Pricing subtitle",
+  "title" : "Service Level",
+  "description" : "Determine the level of service you need for your business",
   "content" : [
     {
-      "title" : "Starter",
-      "price" : "$30",
+      "title" : "Seeker (People)",
+      "price" : "$29",
       "features" : [
-        "No setup, monthly, or hidden fees",
-        "Pay only for what you use",
-        "Real-time fee reporting"
-      ],
+        "Daily job board",
+        "Weekly openings suggestions",
+        "Notify employers you are open to work",
+        "Resume resources",
+        "Advance skills courses"
+      ],      "button" : {
+        "text" : "Pre-Order",
+        "href" : "/#contact"
+      }
+},
+    {
+      "title" : "Starter (Leads)",
+      "price" : "$99",
+      "features" : [
+        "Monthly recommendations",
+        "AI engine ranking candidates",
+        "" ],
       "button" : {
         "text" : "Pre-Order",
         "href" : "/#contact"
