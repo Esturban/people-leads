@@ -9,7 +9,9 @@
             <div class="pricing shadow">
               <div class="header bg-light p-3 text-dark">
                 <h5 class="h5 title">{{ .title }}</h5>
-                <span class="price my-3">{{ .price }}</span>
+                <span class="price my-1">{{ .price }}</span>
+                <span class="subprice my-1">{{ .subprice }}</span>
+                </br>
                 <a href="{{ .button.href | absURL }}" class="btn btn-success">{{ .button.text }}</a>
               </div>
               <div class="body p-3">
